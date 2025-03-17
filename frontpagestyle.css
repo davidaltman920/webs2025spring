@@ -1,0 +1,17 @@
+/* Apply black background and center content */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container to keep content centered */
+.container {
+    max-width: 600px;
+    padding: 20px;
+}
+
