@@ -1,0 +1,1 @@
+Make the slideshow of images smaller and the get tickets on the front page

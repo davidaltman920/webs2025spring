@@ -5,6 +5,26 @@ body {
     text-align: center;
 }
 
+.frontpagelink {
+    color: white;
+    text-decoration: none;
+}
+
+.hamburger {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+.menu {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    background: #222;
+    padding: 10px;
+    border-radius: 5px;
+}
 .shows-menu {
     clear: both;
     list-style: none;

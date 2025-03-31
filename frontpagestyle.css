@@ -9,6 +9,7 @@ body {
 img {
     max-inline-size: 100%;
 }
+
 .hamburger {
     position: absolute;
     top: 10px;
@@ -28,7 +29,7 @@ img {
     display: block;
     color: white;
     text-decoration: none;
-    margin: 5px 0;
+    margin: 5px;
 }
 .image-placeholder {
     padding-top: 50px;
