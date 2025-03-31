@@ -31,8 +31,8 @@ img {
     margin: 5px 0;
 }
 .image-placeholder {
+    padding-top: 50px;
     max-inline-size: 2000px;
-    background: gray;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -51,7 +51,7 @@ img {
     padding: 0;
 }
 .event {
-    background: rgba(255, 255, 255, 0.1);
+    background: #222;
     margin: 10px auto;
     padding: 10px;
     width: 80%;
