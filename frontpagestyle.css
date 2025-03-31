@@ -3,15 +3,64 @@ body {
     background-color: black;
     color: white;
     font-family: Arial, sans-serif;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
-/* Container to keep content centered */
-.container {
-    max-width: 600px;
-    padding: 20px;
+img {
+    max-inline-size: 100%;
+}
+.hamburger {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+.menu {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+}
+.image-placeholder {
+    max-inline-size: 2000px;
+    background: gray;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.button {
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.event-list {
+    clear: both;
+    list-style: none;
+    padding: 0;
+}
+.event {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.event img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
 }
 
