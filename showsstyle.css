@@ -38,3 +38,12 @@ body {
     display: flex;
     align-items: center;
 }
+
+.ticketcounter {
+    margin-left: 72.5%;
+    color: black;
+    background: white;
+    inline-size: 50px;
+    block-size: 50px;
+
+}
