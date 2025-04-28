@@ -1,0 +1,261 @@
+/* Apply black background and center content */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.btn a:visited {
+    color: white;
+}
+
+.button a:visited {
+    color: black;
+}
+
+.bigger-button a:visited {
+    color: black;
+}
+
+img {
+    max-inline-size: 100%;
+}
+
+.hamburger {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.image-placeholder {
+    padding-top: 50px;
+    max-inline-size: 2000px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+    
+.button {
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    margin: 100px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.event-description {
+    position: absolute;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 50%;
+}
+
+.controls {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+.btn {
+    display: flex;
+    background-color: #000;
+    border-color: #fff;
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 40px;
+    border-radius: 20px;
+}
+
+.event-list {
+    clear: both;
+    list-style: none;
+    padding: 0;
+}
+.event {
+    background: #222;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.event img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.fair-use-credit {
+    text-align: left;
+}
+
+.frontpagelink {
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    background: #222;
+    padding: 10px;
+    border-radius: 5px;
+}
+.shows-menu {
+    clear: both;
+    list-style: none;
+    padding: 0;
+}
+.event {
+    background: #222;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.calendar-header {
+    border: 10px solid red;
+    background-color: red;
+    color: white;
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+.calendar-footer {
+    border: 10px solid white;
+    background-color: white;
+    color: black;
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+.price {
+    margin-left: 67.5%;
+    font-size: 30px;
+}
+
+.ticketcounter-show-one{
+    position: absolute;
+    margin-left: 72.5%;
+    font-size: 40px;
+    color: black;
+    background: white;
+    inline-size: 50px;
+    block-size: 50px;
+}
+
+.plus-button-show-one {
+    position: absolute;
+    margin-left: 75.5%;
+    font-size: 35px;
+    color: black;
+    background: white;
+    inline-size: 50px;
+    block-size: 50px;
+}
+
+.minus-button-show-one {
+    position: absolute;
+    font-size: 35px;
+    margin-left: 69.5%;
+    color: black;
+    background: white;
+    inline-size: 50px;
+    block-size: 50px;
+}
+
+.ticketcounter-show-two {
+    position: absolute;
+    margin-left: 72.5%;
+    font-size: 40px;
+    color: black;
+    background: white;
+    inline-size: 50px;
+    block-size: 50px;
+}
+
+.plus-button-show-two {
+    position: absolute;
+    margin-left: 75.5%;
+    font-size: 35px;
+    color: black;
+    background: white;
+    inline-size: 50px;
+    block-size: 50px;
+}
+
+.minus-button-show-two {
+    position: absolute;
+    font-size: 35px;
+    margin-left: 69.5%;
+    color: black;
+    background: white;
+    inline-size: 50px;
+    block-size: 50px;
+}
+
+.ticketcounter-show-three {
+    position: absolute;
+    margin-left: 72.5%;
+    font-size: 40px;
+    color: black;
+    background: white;
+    inline-size: 50px;
+    block-size: 50px;
+}
+
+.plus-button-show-three {
+    position: absolute;
+    margin-left: 75.5%;
+    font-size: 35px;
+    color: black;
+    background: white;
+    inline-size: 50px;
+    block-size: 50px;
+}
+
+.minus-button-show-three {
+    position: absolute;
+    font-size: 35px;
+    margin-left: 69.5%;
+    color: black;
+    background: white;
+    inline-size: 50px;
+    block-size: 50px;
+}
+
+.mission-statement {
+    color: #13f91f
+}
+
+.mic-list {
+    color: #352
+}
+
+.bigger-button {
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    margin: 100px;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+}
