@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Black Background Page</title>
     <link rel="stylesheet" href="mainstylesheet.css">
-    <script type="text/javascript" src="./frontpage.js"></script>
 </head>
 <body>
 
@@ -32,9 +31,7 @@
                     <p>Tom PAPA doing a show at the Pittsburgh improv</p>
                 </div>
                 <p class = "price"> $30.00 </p>
-                <button class = "minus-button-show-one"> - </button>
-                <input type="number" class="ticketcounter-show-two" value="0">
-                <button class = "plus-button-show-one"> + </button>
+                <input type="number" class="ticketcounter-show-one" value="0">
             </li>
             <li class="event">
                 <div>
@@ -45,9 +42,7 @@
                     <p>Georgia Warder doing a show at Dont Tell Pittsburghs location in lawrenceville</p>
                 </div>
                 <p class = "price"> $15.00 </p>
-                <button class = "minus-button-show-two"> - </button>
-                <p class="ticketcounter-show-two"> 0 </p>
-                <button class = "plus-button-show-two"> + </button>
+                <input type="number" class="ticketcounter-show-two" value="0">
             </li>
             <li class="event">
 
@@ -59,15 +54,39 @@
                     <p>Zivan Vasquez as Bantha Tea bar</p>
                 </div>
                 <p class = "price"> $15.00 </p>
-                <button class = "minus-button-show-three"> - </button>
-                <p class="ticketcounter-show-three"> 0 </p>
-                <button class = "plus-button-show-three"> + </button>
+                <input type="number" class="ticketcounter-show-three" value="0">
             </li>
         </ul>
     </div>
 
+
+    
+
     <div>
-        <button class="bigger-button"> <a href="checkout.html">CHECKOUT</a></button>
+        <button class="bigger-button">CHECKOUT</button>
     </div>
+
+        <div class = "event">
+        <h2> Enter your social security number </h2>
+        <br>
+        <input type="text" class="textInput" placeholder="Type your SSN...">
+    </div>
+
+    <br>
+
+    <div class = "event">
+        <h2> What are the 3 digits on your the back of mom's credit card  </h2>
+        <br>
+        <input type="text" class="textInput" placeholder="Type your mom's credit card number...">
+    </div>
+
+    <br>
+
+    <div>
+        <p class = "total"> Your total is </p>
+        <p class = "total-price"> $0 </p>
+    </div>
+
+    <a href="checkout.html"> <button class="bigger-button-purchase">Purchase</button> </a>
     <script type="text/javascript" src="./frontpage.js"></script>
 </body>

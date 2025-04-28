@@ -9,6 +9,14 @@ body {
     color: white;
 }
 
+.home-button a:visited {
+    color: white;
+}
+
+.bigger-button-purchase a:visited {
+    color: white;
+}
+
 .button a:visited {
     color: black;
 }
@@ -36,10 +44,30 @@ img {
 }
 
 .image-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid pink;
+    background-color: pink;
     padding-top: 50px;
     max-inline-size: 2000px;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.description-container {
+    width: 50%;
+    padding: 20px;
+    background-color: pink; /* Pink background for the description box */
+    border: 2px solid purple; /* Purple border around the description */
+    color: purple; /* Purple text */
+}
+
+.image-container img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid #f0f0f0;
 }
     
 .button {
@@ -276,4 +304,14 @@ img {
 
 .total-price {
     font-size: 30px;
+}
+
+.bigger-button-purchase {
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    margin: 100px;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
 }
