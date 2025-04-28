@@ -43,32 +43,75 @@ img {
     margin: 5px;
 }
 
-.image-placeholder {
+.image-placeholder-1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 2px solid pink;
-    background-color: pink;
     padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     max-inline-size: 2000px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.description-container {
-    width: 50%;
-    padding: 20px;
-    background-color: pink; /* Pink background for the description box */
-    border: 2px solid purple; /* Purple border around the description */
-    color: purple; /* Purple text */
+.image-placeholder-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 320px;
+    padding-right: 450px;
+    max-inline-size: 2000px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-.image-container img {
-    width: 50%;
-    height: auto;
-    object-fit: cover;
-    border: 1px solid #f0f0f0;
+.image-placeholder-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 320px;
+    padding-right: 450px;
+    max-inline-size: 2000px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
+
+.description-container-1 {
+    width: 50%;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: pink;
+    border: 2px solid purple; 
+    color: purple; 
+}
+
+.description-container-2 {
+    width: 50%;
+    padding-top: 280px;
+    padding-bottom: 280px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: yellow; 
+    border: 2px solid orange; 
+    color: orange; 
+}
+
+.description-container-3 {
+    width: 50%;
+    padding-top: 330px;
+    padding-bottom: 330px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blue; 
+    border: 2px solid green; 
+    color: green; 
+}
+
     
 .button {
     background: white;
