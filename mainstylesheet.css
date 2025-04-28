@@ -259,3 +259,21 @@ img {
     cursor: pointer;
     font-size: 40px;
 }
+
+.textInput {
+    margin-top: 10px; 
+    margin-left: 20px;
+    padding: 10px; 
+    width: 100%;
+    max-width: 300px; 
+    font-size: 18px;
+    size: 40px;
+}
+
+.total {
+    font-size: 30px;
+}
+
+.total-price {
+    font-size: 30px;
+}

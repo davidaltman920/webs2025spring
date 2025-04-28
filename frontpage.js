@@ -73,3 +73,23 @@ window.onload = function() {
         });
     }
 };
+
+
+// Calculates the price of the tickets
+function calculatePrice() {
+    var inputValueShow1 = document.querySelector(".ticketcounter-show-one").value;
+    var inputValueShow2 = document.querySelector(".ticketcounter-show-two").value;
+    var inputValueShow3 = document.querySelector(".ticketcounter-show-three").value;
+    
+    var number1 = parseFloat(inputValueShow1);
+    var number2 = parseFloat(inputValueShow2);
+    var number3 = parseFloat(inputValueShow3);
+
+    price1 = number1*30;
+    price2 = number2*15;
+    price3 = number3*15;
+    var result = price1 + price2 + price3;
+
+    
+    document.querySelector(".total-price").textContent = "$" + result;
+}
